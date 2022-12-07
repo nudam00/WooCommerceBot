@@ -1,5 +1,5 @@
 # WooCommerce bot and scraping
-A program that writes product names with prices to an Excel file and buys the item depending on the WooCommerce configuration. Bachelor's thesis program.
+Program which writes product names with prices to an Excel file and buys the item depending on the WooCommerce configuration. Bachelor's thesis program.
 
 ## sraping.py
 Extracts product names with prices from a specific category and saves the result to an Excel file.

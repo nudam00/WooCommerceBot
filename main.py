@@ -5,7 +5,7 @@ from scraping import Scraping
 from datetime import datetime
 import xlrd
 
-ip = "192.168.1.19"
+ip = ""  # paste your ip
 
 
 def createTasks(number):
@@ -70,7 +70,7 @@ def ee(bot):
 
 
 def runThreads(k):
-    numberTasks = 35  # number of threads
+    numberTasks = 35  # number of tasks
     tasks = createTasks(numberTasks)
     p = Pool(numberTasks)
     if k == "1":
